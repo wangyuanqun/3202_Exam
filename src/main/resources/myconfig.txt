@@ -1,0 +1,5 @@
+Your-riot-api-key
+Your-twillio-Account-Sid
+Your-twillio-authToken
+The-phone-number-you-send-information
+The-phone-number-you-receive-information

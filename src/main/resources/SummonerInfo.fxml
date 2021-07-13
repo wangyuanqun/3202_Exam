@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="riotgame.controller.SummonerInfoController">
+    <ChoiceBox fx:id="choiceBox" layoutX="174.0" layoutY="166.0" prefHeight="26.0" prefWidth="66.0" />
+    <Label layoutX="30.0" layoutY="103.0" text="Username:" />
+    <TextField fx:id="username" layoutX="115.0" layoutY="98.0" />
+    <Label layoutX="30.0" layoutY="170.0" text="Select your region:" />
+    <Button fx:id="summonerOk" layoutX="114.0" layoutY="227.0" mnemonicParsing="false" text="OK" />
+    <Label layoutX="300.0" layoutY="50.0" text="Account ID:" />
+    <Label layoutX="300.0" layoutY="90.0" text="Profile Icon ID:" />
+    <Label layoutX="300.0" layoutY="130.0" text="Revision Date:" />
+    <Label layoutX="300.0" layoutY="170.0" text="Name:" />
+    <Label layoutX="300.0" layoutY="210.0" text="ID:" />
+    <Label layoutX="300.0" layoutY="250.0" text="Puuid:" />
+    <Label layoutX="300.0" layoutY="290.0" text="Summoner Level:" />
+    <TextField fx:id="accountId" layoutX="420.0" layoutY="45.0" />
+    <TextField fx:id="iconId" layoutX="420.0" layoutY="85.0" />
+    <TextField fx:id="date" layoutX="420.0" layoutY="125.0" />
+    <TextField fx:id="name" layoutX="420.0" layoutY="165.0" />
+    <TextField fx:id="id" layoutX="420.0" layoutY="205.0" />
+    <TextField fx:id="puuid" layoutX="420.0" layoutY="245.0" />
+    <TextField fx:id="level" layoutX="420.0" layoutY="285.0" />
+   <Label layoutX="49.0" layoutY="335.0" text="Do you want to send this to your phone?" />
+   <Button fx:id="report" layoutX="307.0" layoutY="331.0" mnemonicParsing="false" text="Send the report" />
+   <Label layoutX="30.0" layoutY="50.0" text="Please choose a year first:" />
+   <ChoiceBox fx:id="year" layoutX="195.0" layoutY="46.0" prefHeight="26.0" prefWidth="87.0" />
+</AnchorPane>
